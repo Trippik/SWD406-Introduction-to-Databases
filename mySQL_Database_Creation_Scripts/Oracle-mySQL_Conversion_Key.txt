@@ -1,0 +1,40 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ORACLE :: MYSQL
+TABLE :: TABLE
+	COLUMN :: column
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+CAST :: Film_Cast
+	Character_id :: Star_Wars_Character_id
+
+CHARACTER :: Star_Wars_Character
+	NAME :: Character_name
+
+COLOR :: color
+	NAME :: color_name
+
+DRIVER :: driver
+	CHARACTER_ID :: Star_Wars_Character_id
+
+FILM :: Film
+
+
+PILOT :: Pilot
+	CHARACTER_ID :: Star_Wars_Character_id
+
+PLANET :: Planet
+	NAME :: Planet_name
+	
+
+SPECIES :: Species
+	NAME :: Species_name
+
+STARSHIP :: Starship
+	NAME :: Starship_name
+
+
+VEHICLE :: Vehicle
+	NAME :: Vehicle_name 
