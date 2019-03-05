@@ -1214,99 +1214,99 @@ INSERT INTO Film_Cast (Star_Wars_Character_id, film_id)
 VALUES (65, 5);
 
 #Populate Driver
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (1.0, 14.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (1.0, 30.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (5.0, 30.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (10.0, 38.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (11.0, 44.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (11.0, 46.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (13.0, 19.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (18.0, 14.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (32.0, 38.0);
 
-INSERT INTO DRIVER (Star_Wars_Character_id, VEHICLE_ID) 
+INSERT INTO Driver (Star_Wars_Character_id, Vehicle_id) 
 VALUES (44.0, 42.0);
 
 #Populate Pilot
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (1.0, 12.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (1, 12);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (1.0, 22.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (1, 22);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (4.0, 13.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (4, 13);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (9.0, 12.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (9, 12);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (10.0, 48.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (10, 48);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (10.0, 59.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (10, 59);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (11.0, 59.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (11, 59);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (11.0, 65.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (11, 65);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (13.0, 10.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (13, 10);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (13.0, 22.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (13, 22);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (14.0, 10.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (14, 10);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (14.0, 22.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (14, 22);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (18.0, 12.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (18, 12);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (19.0, 12.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (19, 12);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (22.0, 21.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (22, 21);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (25.0, 10.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (25, 10);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (29.0, 28.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (29, 28);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (31.0, 10.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (31, 10);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (39.0, 40.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (39, 40);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (44.0, 41.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (44, 41);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (58.0, 48.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (58, 48);
 
-INSERT INTO PILOT (Star_Wars_Character_id, STARSHIP_ID) 
-VALUES (60.0, 39.0);
+INSERT INTO Pilot (Star_Wars_Character_id, starship_id) 
+VALUES (60, 39);
