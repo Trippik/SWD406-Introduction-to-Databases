@@ -20,7 +20,7 @@ But the Resistance has been
 exposed. As the First Order
 speeds toward the rebel base,
 the brave heroes mount a
-desperate escape....')
+desperate escape....');
 
 
 --Insert planet data
