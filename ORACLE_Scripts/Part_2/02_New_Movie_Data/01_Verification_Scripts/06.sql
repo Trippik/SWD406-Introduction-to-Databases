@@ -1,0 +1,1 @@
+SELECT * FROM PILOT WHERE PILOT.Character_id = 66
