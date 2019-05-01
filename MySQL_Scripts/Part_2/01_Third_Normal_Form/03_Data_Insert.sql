@@ -1,61 +1,60 @@
 #Insert Vehicle_Type Data
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (1, 'wheeled');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (2, 'repulsorcraft');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (3, 'starfighter');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (4, 'airspeeder');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (5, 'space/planetary bomber');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (6, 'assault walker');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (7, 'walker');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (8, 'sail barge');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (9, 'speeder');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (10, 'landing craft');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (11, 'submarine');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (12, 'gunship');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (13, 'wheeled walker');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (14, 'tank');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (15, 'transport');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (16, 'Star Battleship');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (17, 'Battlestation');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (18, 'Freighter');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (19, 'Patrol Craft');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (20, 'Escort Ship');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (21, 'Star Cruiser');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (22, 'Yacht');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (23, 'Star Destroyer');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (24, 'Capital Ship');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (25, 'Control Ship');
-INSERT INTO Vehicle_Type (id, vehicle_type) VALUES (26, 'Corvette');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('wheeled');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('repulsorcraft');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('starfighter');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('airspeeder');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('space/planetary bomber');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('assault walker');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('walker');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('sail barge');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('speeder');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('landing craft');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('submarine');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('gunship');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('wheeled walker');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('tank');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('transport');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Star Battleship');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Battlestation');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Freighter');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Patrol Craft');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Escort Ship');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Star Cruiser');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Yacht');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Star Destroyer');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Capital Ship');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Control Ship');
+INSERT INTO Vehicle_Type (vehicle_type) VALUES ('Corvette');
 
 
 #Insert Vehicle_Class Data
-INSERT INTO Vehicle_Class (id, class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
-(1, 'T-16 skyhopper', 1, 'Incom Corporation', 14500, 2, 50, '0', 1200, 1, 10.4, NULL);
-INSERT INTO Vehicle_Class (id, class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
-(2, 'X-34 landspeeder', 1, 'SoroSuub Corporation',  10550, 2, 5, NULL, 250, 1, 3.4, NULL);
-INSERT INTO Vehicle_Class (id, class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
-(3, 'TIE/LN starfighter', 0, 'Sienar Fleet Systems', NULL, 3, 65, '2 days', 1200, 1, 6.4, NULL);
-INSERT INTO Vehicle_Class (id, class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
-(4, 't-47 airspeeder', 0, 'Incom corporation',  NULL, 4, 10, NULL, 650, 2, 4.5, NULL);
-INSERT INTO Vehicle_Class (id, class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
-(5, 'X-Wing', 0, NULL, NULL, 3, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO Vehicle_Class (id, class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
-(6, 'Imperial Star Destroyer', 0, 'Kuat Drive Yards', 150000000, 23, 36000000, '2 years', 975, 47060, 1600, 2);
-INSERT INTO Vehicle_Class (id, class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
-(7, 'CR90 corvette', 600, 'Corellian Engineering Corporation', 3500000, 26, 3000000, '1 year', 950, 165, 150, 2);
+INSERT INTO Vehicle_Class (class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
+('T-16 skyhopper', 1, 'Incom Corporation', 14500, 2, 50, '0', 1200, 1, 10.4, NULL);
+INSERT INTO Vehicle_Class (class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
+('X-34 landspeeder', 1, 'SoroSuub Corporation',  10550, 2, 5, NULL, 250, 1, 3.4, NULL);
+INSERT INTO Vehicle_Class (class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
+('TIE/LN starfighter', 0, 'Sienar Fleet Systems', NULL, 3, 65, '2 days', 1200, 1, 6.4, NULL);
+INSERT INTO Vehicle_Class (class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
+('t-47 airspeeder', 0, 'Incom corporation',  NULL, 4, 10, NULL, 650, 2, 4.5, NULL);
+INSERT INTO Vehicle_Class (class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
+('X-Wing', 0, NULL, NULL, 3, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO Vehicle_Class (class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
+('Imperial Star Destroyer', 0, 'Kuat Drive Yards', 150000000, 23, 36000000, '2 years', 975, 47060, 1600, 2);
+INSERT INTO Vehicle_Class (class_name, passangers, manufacturer, cost_in_credits, vehicle_type, cargo_capacity, consumables, max_atmospheric_speed, crew, length, hyperdrive_rating) VALUES
+('CR90 corvette', 600, 'Corellian Engineering Corporation', 3500000, 26, 3000000, '1 year', 950, 165, 150, 2);
 
 
 #Insert Vehicle Data
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (1, 'T-16 Skyhopper', 1); 
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (2, 'Luke Skywalkers Landspeeder', 2);
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (3, 'Imperial TIE Fighter', 3);
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (4, 'First Order TIE Fighter', 3);
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (5, 'Rebel Snowspeeder', 4);
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (6, 'Rebel X-Wing', 5);
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (7, 'Imperial Star Destroyer', 6);
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (8, 'Rebel Corvette', 7);
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (9, 'Corellian Corvette', 7);
-INSERT INTO Vehicle (id, vehicle_name, class_id) VALUES (10, 'Consular Vessel', 7);
-
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('T-16 Skyhopper', 1); 
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('Luke Skywalkers Landspeeder', 2);
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('Imperial TIE Fighter', 3);
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('First Order TIE Fighter', 3);
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('Rebel Snowspeeder', 4);
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('Rebel X-Wing', 5);
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('Imperial Star Destroyer', 6);
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('Rebel Corvette', 7);
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('Corellian Corvette', 7);
+INSERT INTO Vehicle (vehicle_name, class_id) VALUES ('Consular Vessel', 7);
 
 #Insert Vehicle_Film Data
 INSERT INTO Vehicle_Film (film_id, vehicle_id) VALUES (5, 1);
