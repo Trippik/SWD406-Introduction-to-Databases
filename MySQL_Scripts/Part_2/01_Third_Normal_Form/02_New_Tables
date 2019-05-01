@@ -1,0 +1,43 @@
+CREATE TABLE Vehicle_Type (
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+vehicle_type VARCHAR(250));
+
+CREATE TABLE Vehicle_Class (
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+class_name VARCHAR (250),
+passangers INT,
+manufacturer VARCHAR (250),
+cost_in_credits INT,
+vehicle_type INT UNSIGNED,
+cargo_capacity INT,
+consumables VARCHAR (250),
+max_atmospheric_speed INT,
+crew INT,
+length FLOAT,
+hyperdrive_rating FLOAT,
+FOREIGN KEY (vehicle_type) 
+REFERENCES Vehicle_Type(id)
+ON DELETE RESTRICT);
+
+CREATE TABLE Vehicle (
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+vehicle_name VARCHAR(250),
+class_id INT UNSIGNED,
+FOREIGN KEY (class_id)
+REFERENCES Vehicle_Class(id));
+
+CREATE TABLE Driver (
+character_id INT,
+vehicle_id INT UNSIGNED,
+FOREIGN KEY (character_id) 
+REFERENCES Star_Wars_Character(id),
+FOREIGN KEY (vehicle_id)
+REFERENCES Vehicle(id));
+
+CREATE TABLE Vehicle_Film (
+film_id INT,
+vehicle_id INT UNSIGNED,
+FOREIGN KEY (film_id) 
+REFERENCES Film(id),
+FOREIGN KEY (vehicle_id)
+REFERENCES Vehicle(id));
